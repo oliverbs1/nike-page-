@@ -8,11 +8,22 @@
     position: relative;
 }
 
-/*header*/
+.blue{
+    color:#44a8dc;
+}
+
+.wrapper{
+    width: 320px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    position: relative;
+    height: 400px;
+}
+
+/**************  header  **************/
 
 #header{
     height:90px;
-    background-color: red;
 }
 
 .logo{
@@ -23,11 +34,15 @@
 
 .menu li{
     display: inline-block;
-    padding: 0px 40px 0 0px;
+    padding: 0px 20px 30px 20px;
+    font-family: "Ropa Sans" , sans-serif;
+    font-size: 14px;
 }
 
-.menu li:hover{
+li:hover{
     color: #44a8dc;
+    border-bottom: 3px solid #44a8dc;
+    padding: 0 0 30px 0;
 }
 
 .menu  ul{
@@ -36,20 +51,76 @@
     top: 40px;
 }
 
+.connect li{
+    display: inline-block;
+    padding: 0px 20px 30px 20px;
+    font-family: "Ropa Sans" , sans-serif;
+    font-size: 14px;
+}
+
+.connect  ul{
+    position: absolute;
+    left: 74%;
+    top: 40px;
+}
+
+.connect img {
+    padding: 0 10px 0 0;
+}
+
+/**************  bloc1  **************/
+
+#bloc1{
+    height: 610px;
+    background-color: grey;
+}
+
+.basket{
+    position: absolute;
+    top:157px;
+    left:130px;
+}
+
+.coeur{
+    padding: 20px;
+    border: 1px solid #e4e4e4;
+}
+
+.wrapper h2{
+    font-family: "Ropa Sans",sans-serif;
+    font-size: 25px;
+}
+
+.wrapper h3{
+    font-family: "Ropa Sans",sans-serif;
+    font-size: 35px;
+}
+
+.wrapper p{
+    font-family: "Ropa Sans",sans-serif;
+    font-size: 14px;
+    color: #808080;
+}
+
+.price{
+    font-family: "Ropa Sans",sans-serif;
+    font-size: 18px;
+    color: #808080;
+}
 
 
-/*bloc2*/
+
+/**************  bloc2  **************/
 
 #bloc2{
     height: 660px;
     background: url("images/bloc2/fond.png");
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
 }
 
 #bloc2 h2{
-    font-family: 'ropa-sans', 400 ;
+    font-family: 'Ropa Sans', sans-serif;
     font-size: 25px;
     color: white;
     position: absolute;
@@ -58,7 +129,7 @@
 }
 
 #bloc2 p{
-    font-family: 'roboto',sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-weight: lighter;
     width: 398px;
     height: 96px;
