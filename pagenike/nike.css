@@ -12,13 +12,6 @@
     color:#44a8dc;
 }
 
-.wrapper{
-    width: 320px;
-    margin: 0 auto;
-    background-color: antiquewhite;
-    position: relative;
-    height: 400px;
-}
 
 /**************  header  **************/
 
@@ -72,13 +65,22 @@ li:hover{
 
 #bloc1{
     height: 610px;
-    background-color: grey;
+    position: relative;
 }
 
 .basket{
     position: absolute;
     top:157px;
     left:130px;
+}
+
+.wrapper{
+    width: 320px;
+    margin: 0 auto;
+    position: absolute;
+    top:60px;
+    left:854px;
+    height: 400px;
 }
 
 .coeur{
@@ -89,23 +91,33 @@ li:hover{
 .wrapper h2{
     font-family: "Ropa Sans",sans-serif;
     font-size: 25px;
+    padding: 40px 0 6px 0;
 }
 
 .wrapper h3{
     font-family: "Ropa Sans",sans-serif;
     font-size: 35px;
+    padding-bottom: 5px;
 }
 
 .wrapper p{
     font-family: "Ropa Sans",sans-serif;
     font-size: 14px;
     color: #808080;
+    padding: 15px 0 10px 0;
 }
 
 .price{
     font-family: "Ropa Sans",sans-serif;
     font-size: 18px;
     color: #808080;
+    
+}
+
+.size{
+    font-family: "Roboto" , sans-serif;
+    font-size: 12px;
+    color: #c1c1c1;
 }
 
 
