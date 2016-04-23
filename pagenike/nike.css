@@ -102,7 +102,7 @@ li:hover{
 
 .wrapper p{
     font-family: "Ropa Sans",sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #808080;
     padding: 15px 0 10px 0;
 }
@@ -118,6 +118,27 @@ li:hover{
     font-family: "Roboto" , sans-serif;
     font-size: 12px;
     color: #c1c1c1;
+}
+
+#sizechart{
+    border: 3px solid #8f8f8f;
+    width: 147px;
+    height: 50px;
+    background: rgba(68,78,86,0);
+    margin-top: 14px;
+}
+
+#Butt{
+    width: 147px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid;
+    background-color: #333333;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Ropa Sans',sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
 }
 
 
@@ -150,4 +171,18 @@ li:hover{
     top:305px;
     left:50px;
     color: white;
+}
+
+/**************  bloc3  **************/
+
+#bloc3{
+    height: 660px;
+    background: url("images/bloc3/bgnike.png");
+}
+
+/**************  bloc4  **************/
+
+#bloc4{
+    height: 660px;
+    background-color: antiquewhite;
 }
