@@ -4,6 +4,12 @@
         <title>Nike Tavas</title>
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="nike.css">
+        <link rel="stylesheet" href="swiper.css">
+        
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/css/swiper.min.css">
+        
+        
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,100italic,300italic,400italic,500,500italic,700,700italic,900,900italic|Ropa+Sans:400,400italic' rel='stylesheet' type='text/css'>
     </head>
     
@@ -29,25 +35,23 @@
                     <li><img src="images/Header/iconcompte.png" alt=""/>SIGN IN</li>
                 </ul>
             </div>
-            
         </div>
-        
-        
-        
+         
         <div id="bloc1" class="bloc">
             <img class="basket" src="images/bloc1/basketnike.png" alt=""/>
             <div class="wrapper">
                 <img class="coeur" src="images/bloc1/iconcoeur.png" alt=""/>
-                <h2>NIKE</h2>
-                <h3>AIR MAX TAVAS SD</h3>
-                <span class="price">$ 160.00</span>
-                <p>Colors - <span class="blue">Black/Pink Pow/Tour Yellow/White</span> </p>
+                <h2 class="ropa">NIKE</h2>
+                <h3 class="ropa">AIR MAX TAVAS SD</h3>
+                <span class="price ropa">$ 160.00</span>
+                <p class="ropa">Colors - <span class="blue">Black/Pink Pow/Tour Yellow/White</span> </p>
                 <img src="images/bloc1/minibasketcolor.png" alt=""/>
                 <img src="images/bloc1/minibasketgrise.png" alt=""/>
                 <div>
-                    <span class="size">Size charts</span>
+                    <span class="size roboto">Size charts</span>
                 </div>
-            <select name="Size" id="sizechart">
+                
+             <select name="Size" id="sizechart">
                 <option value="34">34</option>
                 <option value="35">35</option>
                 <option value="36">36</option>
@@ -66,16 +70,87 @@
             <input id="Butt" type="button" value="Add to cart"></input>
             </div>
         </div>
-        
+    
         <div id="bloc2" class="bloc">
-            <h2>CLASSIC CUSHIONING. MODERN COMFORT. </h2>
-            <p>The Nike Air Max Tavas SD Men's Shoe recalls the profile of the iconic running original with a Max Air unit in the heel and multi-surface Waffle outsole. A lightweight upper and gradient detail offer a comfortable fit and dynamic look.</p>
+            <h2 class="ropa">CLASSIC CUSHIONING. MODERN COMFORT. </h2>
+            <p class="roboto">The Nike Air Max Tavas SD Men's Shoe recalls the profile of the iconic running original with a Max Air unit in the heel and multi-surface Waffle outsole. A lightweight upper and gradient detail offer a comfortable fit and dynamic look.</p>
             
         </div>
     
         <div id="bloc3" class="bloc">
-          
+          <div class="wrap">
+                <h2 class="ropa">NIKE</h2>
+                <h3 class="roboto">Air max Tavas SD</h3>
+                <p class="blue color ropa">Black/Pink Pow/Tour Yellow/White </p>
+                <img class="mini" src="images/bloc3/minibasketbloc3.png" alt=""/>
+              
+                <p class="stock ropa">EN STOCK</p>
+                <span class="ropa">$ 160.00</span>
+          </div>
+            
+          <div id="wrapbloc3">
+                <h1 id="histoire" class="title">Story</h1>
+                    <h2 id="origin" class="Nike">Nike air max origins</h2>
+                        <p id="revol" class="AA">Nike's revolutionary Air-Sole unit made its way into Nike
+                footwear in the late '70s. In 1987, the Nike Air Max 1
+                debuted with visible air in its heel, allowing fans more than
+                just the feel of Air-Sole comfort</p>
+                
+                <h1 class="ben title">Benefits</h1>
+                    <h2 class="lay subtitle3">Layered textile/Synthetic upper</h2>
+                        <p class="for text">for lightweight durability and comfort</p>
+                    <h2 class="inj subtitle3">Injected phylon midsole doubles</h2>
+                        <p class="out text">Outsole to reduce the overall weight of the shoe</p>
+                    <h2 class="max subtitle3">Max air wheel unit</h2>
+                        <p class="del text">delivers maximum lightweight cushioning</p>
+                    <h2 class="rubb subtitle3">Rubber waffle outsole</h2>
+                        <p class="durable text">Durable, multi-surface traction</p>
+                
+            </div>
+        </div>
+    
+         <div id="bloc4" class="bloc">
+            <p class="ropa">SOCIAL</p>
+            <span class="ropa">#NIKEAIRMAX</span>
+            
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/bloc4/slider1.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/bloc4/slider2.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/bloc4/slider3.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/bloc4/slider4.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/bloc4/slider5.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/bloc4/slider6.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/bloc4/slider7.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/bloc4/slider8.png" />
+                    </div>
+                    
+                
+                </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
             
         </div>
+        
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/js/swiper.min.js"></script>
+        <script src="swiper.js"></script>
     </body>
 </html>

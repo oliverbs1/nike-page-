@@ -332,5 +332,21 @@ li:hover{
 
 #bloc4{
     height: 660px;
-    background-color: antiquewhite;
+    background-color: white;
+}
+
+#bloc4 p{
+    font-size: 14px;
+    color: #c1c1c1;
+    position: absolute;
+    top:111px;
+    left:75px;
+}
+
+#bloc4 span{
+    font-size: 25px;
+    color: black;
+    position: absolute;
+    top:125px;
+    left:75px;
 }
