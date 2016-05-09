@@ -160,7 +160,7 @@ li:hover{
 
 #bloc2{
     height: 660px;
-    background: url("images/bloc2/fond.png");
+    background: url("../images/bloc2/fond.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -188,7 +188,7 @@ li:hover{
 
 #bloc3{
     height: 660px;
-    background: url("images/bloc3/bgnike.png");
+    background: url("../images/bloc3/bgnike.png");
 }
 
 .wrap{
@@ -343,10 +343,7 @@ li:hover{
     width: 115px;
     height: 50px;
     background: rgba(68,78,86,0);
-    background: url("Bloc 1/arrow.png") no-repeat right;
     -webkit-appearence: none;
-
-    
 }
 
 .buttt {
