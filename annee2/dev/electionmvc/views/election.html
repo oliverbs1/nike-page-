@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Election 2017</title>
+    <link rel="stylesheet" href="asset/election.css">
+    <link rel="stylesheet" href="asset/meyer.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="div1">
+        <img class="home" src="images/election.jpg" alt="">
+    </div>
+
+    <div class="div2">
+        <img id="fillon" class="size1" src="images/fillon%20.jpg" alt="">
+        <img id="valls" class="size2" src="images/valls.jpg" alt="">
+        <img id="macron" class="size3" src="images/macron.jpg" alt="">
+        <img id="marine" class="size4" src="images/mar.jpg" alt="">
+
+        <h2 id="candidat" class="text">Candidat</h2>
+        <ul id="candidatlist"></ul>
+    </div>
+
+    <div class="div3">
+        <div class="border"></div>
+        <p id=idvoting></p>
+        <h2 id="votant" class="text1">Inscrivez-vous</h2>
+
+        <form id="votantcreate" class="dis">
+            <input type="text" id="firstname" name="firstame" placeholder="Enter your firstname" />
+            <input type="text" id="lastname" name="lastname" placeholder="Enter your lastname" />
+            <input type="text" id="age" name="age" placeholder="Enter your age" />
+            <input id="pass" type="submit" value="subscribe" />
+        </form>
+
+
+        <h2 id="vot" class="text2">Voter</h2>
+
+        <form id="vote1" class="pos3">
+            <input type="text" id="lastname1" name="lastname1" placeholder="Enter your id" />
+            <input type="text" id="vote" name="vote" placeholder="Enter the id candidate" />
+            <input id="vv" class="size" type="submit" value="subscribe" />
+        </form>
+    </div>
+
+
+    <h2 id="resultat" class="text3">Resultat</h2>
+    <ul id="result"></ul>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

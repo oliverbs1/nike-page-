@@ -1,0 +1,173 @@
+.div1 {
+    width: 100%;
+    height: 700px;
+}
+
+.div2 {
+    width: 100%;
+    height: 500px;
+}
+
+.div3 {
+    width: 100%;
+    height: 400px;
+    background: #E93737;
+}
+
+.size1 {
+    width: 20%;
+    height: 298px;
+    position: absolute;
+    top: 800px;
+    left: 80px;
+    display: none;
+}
+
+.size2 {
+    width: 20%;
+    height: 298px;
+    position: absolute;
+    top: 800px;
+    left: 384px;
+    display: none;
+}
+
+.size3 {
+    width: 20%;
+    height: 298px;
+    position: absolute;
+    top: 800px;
+    left: 691px;
+    display: none;
+}
+
+.size4 {
+    width: 20%;
+    height: 298px;
+    position: absolute;
+    top: 800px;
+    left: 1004px;
+    display: none;
+}
+
+.home {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 700px;
+}
+
+.text {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 35px;
+    font-family: "playfair display";
+}
+
+.text1 {
+    font-size: 44px;
+    padding-top: 35px;
+    padding-left: 183px;
+    font-family: "playfair display";
+}
+
+.text2 {
+    font-size: 44px;
+    position: absolute;
+    top: 1254px;
+    left: 992px;
+    font-family: "playfair display";
+    display: none;
+}
+
+.text3 {
+    font-size: 44px;
+    position: absolute;
+    top: 1254px;
+    left: 617px;
+    font-family: "playfair display";
+    display: none;
+}
+
+.border {
+    width: 0;
+    height: 396px;
+    border: 2px solid black;
+    position: absolute;
+    left: 50%;
+}
+
+.dis {
+    margin: 78px 0 0 203px;
+    display: none;
+}
+
+input {
+    width: 20%;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.2), 0 1px 1px rgba(255, 255, 255, 0.2);
+    -webkit-transition: box-shadow .5s ease;
+    -moz-transition: box-shadow .5s ease;
+    -o-transition: box-shadow .5s ease;
+    -ms-transition: box-shadow .5s ease;
+    transition: box-shadow .5s ease;
+    display: block;
+}
+
+input:focus {
+    box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.4), 0 1px 1px rgba(255, 255, 255, 0.2);
+}
+
+#candidatlist>li {
+    display: inline-block;
+    padding-left: 117px;
+    padding-top: 339px;
+    font-size: 18px;
+    font-family: "playfair display";
+}
+
+.pos {
+    position: absolute;
+    top: 150px;
+    left: 28%;
+}
+
+.pos3 {
+    position: absolute;
+    top: 1351px;
+    left: 70%;
+    display: none;
+}
+
+.pos4 {
+    position: absolute;
+    top: 452px;
+    left: 45%;
+}
+
+#lastname1 {
+    width: 100%;
+}
+
+#vote {
+    width: 100%;
+}
+
+.size {
+    width: 100%;
+}
+
+#result {
+    position: absolute;
+    top: 1337px;
+    left: 45%;
+    font-size: 22px;
+}
