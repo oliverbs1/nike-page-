@@ -1,0 +1,405 @@
+/* ############################################## */
+/* ################# EMPAGEMENT ################# */
+body {
+  padding: 0  ;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+/* ############## EMPAGEMENT [FIN] ############## */
+/* ############################################## */
+
+
+/* ############################################## */
+/* ############# GRILLE ET COLONNES ############# */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -20px;
+}
+[class*=col-] {
+  margin-right: 24px;
+  box-sizing: border-box;
+  flex: 0 0 0;
+}
+/* ########## GRILLE ET COLONNES [FIN] ########## */
+/* ############################################## */
+
+
+/* ############################################## */
+/* ############ ÉTENDUES DE COLONNES ############ */
+.col-1 {
+  min-width: calc(1 / 12 * 100% - 24px);
+}
+.col-2 {
+  min-width: calc(2 / 12 * 100% - 24px);
+}
+.col-3 {
+  min-width: calc(3 / 12 * 100% - 24px);
+}
+.col-4 {
+  min-width: calc(4 / 12 * 100% - 24px);
+}
+.col-5 {
+  min-width: calc(5 / 12 * 100% - 24px);
+}
+.col-6 {
+  min-width: calc(6 / 12 * 100% - 24px);
+}
+.col-7 {
+  min-width: calc(7 / 12 * 100% - 24px);
+}
+.col-8 {
+  min-width: calc(8 / 12 * 100% - 24px);
+}
+.col-9 {
+  min-width: calc(9 / 12 * 100% - 24px);
+}
+.col-10 {
+  min-width: calc(10 / 12 * 100% - 24px);
+}
+.col-11 {
+  min-width: calc(11 / 12 * 100% - 24px);
+}
+.col-12 {
+  min-width: calc(12 / 12 * 100% - 24px);
+}
+/* ######### ÉTENDUES DE COLONNES [FIN] ######### */
+/* ############################################## */
+
+
+/* ################################################# */
+/* ############ COLONNES VIDES À GAUCHE ############ */
+.emptyl-col-1 {
+  margin-left: calc(1 / 12 * 100%);
+}
+.emptyl-col-2 {
+  margin-left: calc(2 / 12 * 100%);
+}
+.emptyl-col-3 {
+  margin-left: calc(3 / 12 * 100%);
+}
+.emptyl-col-4 {
+  margin-left: calc(4 / 12 * 100%);
+}
+.emptyl-col-5 {
+  margin-left: calc(5 / 12 * 100%);
+}
+.emptyl-col-5 {
+  margin-left: calc(5 / 12 * 100%);
+}
+.emptyl-col-6 {
+  margin-left: calc(6 / 12 * 100%);
+}
+.emptyl-col-7 {
+  margin-left: calc(7 / 12 * 100%);
+}
+.emptyl-col-8 {
+  margin-left: calc(8 / 12 * 100%);
+}
+.emptyl-col-9 {
+  margin-left: calc(9 / 12 * 100%);
+}
+.emptyl-col-10 {
+  margin-left: calc(10 / 12 * 100%);
+}
+.emptyl-col-11 {
+  margin-left: calc(11 / 12 * 100%);
+}
+/* ######### COLONNES VIDES À GAUCHE [FIN] ######### */
+/* ################################################# */
+
+/* ################################################# */
+/* ############ COLONNES VIDES À DROITE ############ */
+.emptyr-col-1 {
+  margin-right: calc(1 / 12 * 100% + 24px);
+}
+.emptyr-col-2 {
+  margin-right: calc(2 / 12 * 100% + 24px);
+}
+.emptyr-col-3 {
+  margin-right: calc(3 / 12 * 100% + 24px);
+}
+.emptyr-col-4 {
+  margin-right: calc(4 / 12 * 100% + 24px);
+}
+.emptyr-col-5 {
+  margin-right: calc(5 / 12 * 100% + 24px);
+}
+.emptyr-col-5 {
+  margin-right: calc(5 / 12 * 100% + 24px);
+}
+.emptyr-col-6 {
+  margin-right: calc(6 / 12 * 100% + 24px);
+}
+.emptyr-col-7 {
+  margin-right: calc(7 / 12 * 100% + 24px);
+}
+.emptyr-col-8 {
+  margin-right: calc(8 / 12 * 100% + 24px);
+}
+.emptyr-col-9 {
+  margin-right: calc(9 / 12 * 100% + 24px);
+}
+.emptyr-col-10 {
+  margin-right: calc(10 / 12 * 100% + 24px);
+}
+.emptyr-col-11 {
+  margin-right: calc(11 / 12 * 100% + 24px);
+}
+/* ######### COLONNES VIDES À DROITE [FIN] ######### */
+/* ################################################# */
+
+
+@media all and (max-width: 768px) {
+  /* ############################################## */
+  /* ############ ÉTENDUES DE COLONNES ############ */
+  .m-col-1 {
+    min-width: calc(1 / 12 * 100% - 24px);
+  }
+  .m-col-2 {
+    min-width: calc(2 / 12 * 100% - 24px);
+  }
+  .m-col-3 {
+    min-width: calc(3 / 12 * 100% - 24px);
+  }
+  .m-col-4 {
+    min-width: calc(4 / 12 * 100% - 24px);
+  }
+  .m-col-5 {
+    min-width: calc(5 / 12 * 100% - 24px);
+  }
+  .m-col-6 {
+    min-width: calc(6 / 12 * 100% - 24px);
+  }
+  .m-col-7 {
+    min-width: calc(7 / 12 * 100% - 24px);
+  }
+  .m-col-8 {
+    min-width: calc(8 / 12 * 100% - 24px);
+  }
+  .m-col-9 {
+    min-width: calc(9 / 12 * 100% - 24px);
+  }
+  .m-col-10 {
+    min-width: calc(10 / 12 * 100% - 24px);
+  }
+  .m-col-11 {
+    min-width: calc(11 / 12 * 100% - 24px);
+  }
+  .m-col-12 {
+    min-width: calc(12 / 12 * 100% - 24px);
+  }
+  /* ######### ÉTENDUES DE COLONNES [FIN] ######### */
+  /* ############################################## */
+
+  /* ################################################# */
+  /* ############ COLONNES VIDES À GAUCHE ############ */
+  .m-emptyl-col-1 {
+    margin-left: calc(1 / 12 * 100%);
+  }
+  .m-emptyl-col-2 {
+    margin-left: calc(2 / 12 * 100%);
+  }
+  .m-emptyl-col-3 {
+    margin-left: calc(3 / 12 * 100%);
+  }
+  .m-emptyl-col-4 {
+    margin-left: calc(4 / 12 * 100%);
+  }
+  .m-emptyl-col-5 {
+    margin-left: calc(5 / 12 * 100%);
+  }
+  .m-emptyl-col-5 {
+    margin-left: calc(5 / 12 * 100%);
+  }
+  .m-emptyl-col-6 {
+    margin-left: calc(6 / 12 * 100%);
+  }
+  .m-emptyl-col-7 {
+    margin-left: calc(7 / 12 * 100%);
+  }
+  .m-emptyl-col-8 {
+    margin-left: calc(8 / 12 * 100%);
+  }
+  .m-emptyl-col-9 {
+    margin-left: calc(9 / 12 * 100%);
+  }
+  .m-emptyl-col-10 {
+    margin-left: calc(10 / 12 * 100%);
+  }
+  .m-emptyl-col-11 {
+    margin-left: calc(11 / 12 * 100%);
+  }
+  /* ######### COLONNES VIDES À GAUCHE [FIN] ######### */
+  /* ################################################# */
+
+  /* ################################################# */
+  /* ############ COLONNES VIDES À DROITE ############ */
+  .m-emptyr-col-1 {
+    margin-right: calc(1 / 12 * 100% + 24px);
+  }
+  .m-emptyr-col-2 {
+    margin-right: calc(2 / 12 * 100% + 24px);
+  }
+  .m-emptyr-col-3 {
+    margin-right: calc(3 / 12 * 100% + 24px);
+  }
+  .m-emptyr-col-4 {
+    margin-right: calc(4 / 12 * 100% + 24px);
+  }
+  .m-emptyr-col-5 {
+    margin-right: calc(5 / 12 * 100% + 24px);
+  }
+  .m-emptyr-col-5 {
+    margin-right: calc(5 / 12 * 100% + 24px);
+  }
+  .m-emptyr-col-6 {
+    margin-right: calc(6 / 12 * 100% + 24px);
+  }
+  .m-emptyr-col-7 {
+    margin-right: calc(7 / 12 * 100% + 24px);
+  }
+  .m-emptyr-col-8 {
+    margin-right: calc(8 / 12 * 100% + 24px);
+  }
+  .m-emptyr-col-9 {
+    margin-right: calc(9 / 12 * 100% + 24px);
+  }
+  .m-emptyr-col-10 {
+    margin-right: calc(10 / 12 * 100% + 24px);
+  }
+  .m-emptyr-col-11 {
+    margin-right: calc(11 / 12 * 100% + 24px);
+  }
+  /* ######### COLONNES VIDES À DROITE [FIN] ######### */
+  /* ################################################# */
+}
+
+
+@media all and (max-width: 750px) {
+  /* ############################################## */
+  /* ############ ÉTENDUES DE COLONNES ############ */
+  .s-col-1 {
+    min-width: calc(1 / 12 * 100% - 24px);
+  }
+  .s-col-2 {
+    min-width: calc(2 / 12 * 100% - 24px);
+  }
+  .s-col-3 {
+    min-width: calc(3 / 12 * 100% - 24px);
+  }
+  .s-col-4 {
+    min-width: calc(4 / 12 * 100% - 24px);
+  }
+  .s-col-5 {
+    min-width: calc(5 / 12 * 100% - 24px);
+  }
+  .s-col-6 {
+    min-width: calc(6 / 12 * 100% - 24px);
+  }
+  .s-col-7 {
+    min-width: calc(7 / 12 * 100% - 24px);
+  }
+  .s-col-8 {
+    min-width: calc(8 / 12 * 100% - 24px);
+  }
+  .s-col-9 {
+    min-width: calc(9 / 12 * 100% - 24px);
+  }
+  .s-col-10 {
+    min-width: calc(10 / 12 * 100% - 24px);
+  }
+  .s-col-11 {
+    min-width: calc(11 / 12 * 100% - 24px);
+  }
+  .s-col-12 {
+    min-width: calc(12 / 12 * 100% - 24px);
+  }
+  /* ######### ÉTENDUES DE COLONNES [FIN] ######### */
+  /* ############################################## */
+
+
+  /* ################################################# */
+  /* ############ COLONNES VIDES À GAUCHE ############ */
+  .s-emptyl-col-1 {
+    margin-left: calc(1 / 12 * 100%);
+  }
+  .s-emptyl-col-2 {
+    margin-left: calc(2 / 12 * 100%);
+  }
+  .s-emptyl-col-3 {
+    margin-left: calc(3 / 12 * 100%);
+  }
+  .s-emptyl-col-4 {
+    margin-left: calc(4 / 12 * 100%);
+  }
+  .s-emptyl-col-5 {
+    margin-left: calc(5 / 12 * 100%);
+  }
+  .s-emptyl-col-5 {
+    margin-left: calc(5 / 12 * 100%);
+  }
+  .s-emptyl-col-6 {
+    margin-left: calc(6 / 12 * 100%);
+  }
+  .s-emptyl-col-7 {
+    margin-left: calc(7 / 12 * 100%);
+  }
+  .s-emptyl-col-8 {
+    margin-left: calc(8 / 12 * 100%);
+  }
+  .s-emptyl-col-9 {
+    margin-left: calc(9 / 12 * 100%);
+  }
+  .s-emptyl-col-10 {
+    margin-left: calc(10 / 12 * 100%);
+  }
+  .s-emptyl-col-11 {
+    margin-left: calc(11 / 12 * 100%);
+  }
+  /* ######### COLONNES VIDES À GAUCHE [FIN] ######### */
+  /* ################################################# */
+
+  /* ################################################# */
+  /* ############ COLONNES VIDES À DROITE ############ */
+  .s-emptyr-col-1 {
+    margin-right: calc(1 / 12 * 100% + 24px);
+  }
+  .s-emptyr-col-2 {
+    margin-right: calc(2 / 12 * 100% + 24px);
+  }
+  .s-emptyr-col-3 {
+    margin-right: calc(3 / 12 * 100% + 24px);
+  }
+  .s-emptyr-col-4 {
+    margin-right: calc(4 / 12 * 100% + 24px);
+  }
+  .s-emptyr-col-5 {
+    margin-right: calc(5 / 12 * 100% + 24px);
+  }
+  .s-emptyr-col-5 {
+    margin-right: calc(5 / 12 * 100% + 24px);
+  }
+  .s-emptyr-col-6 {
+    margin-right: calc(6 / 12 * 100% + 24px);
+  }
+  .s-emptyr-col-7 {
+    margin-right: calc(7 / 12 * 100% + 24px);
+  }
+  .s-emptyr-col-8 {
+    margin-right: calc(8 / 12 * 100% + 24px);
+  }
+  .s-emptyr-col-9 {
+    margin-right: calc(9 / 12 * 100% + 24px);
+  }
+  .s-emptyr-col-10 {
+    margin-right: calc(10 / 12 * 100% + 24px);
+  }
+  .s-emptyr-col-11 {
+    margin-right: calc(11 / 12 * 100% + 24px);
+  }
+  /* ######### COLONNES VIDES À DROITE [FIN] ######### */
+  /* ################################################# */
+}

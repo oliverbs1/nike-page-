@@ -1,0 +1,99 @@
+
+#grey{
+    background: grey;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.FontRed{
+    color: #E55155;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.FontWhite{
+    color: #fff;
+}
+
+.FontBlack{
+    color: #212121;
+}
+
+.pWhite20-m{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.pBlack20-m{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #212121;
+}
+
+.pRed20-m{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #E55155;
+}
+
+
+.pWhite20{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.pBlack20{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #212121;
+}
+
+.pRed20{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #E55155;
+}
+
+.pWhite14{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.pBlack14{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #212121;
+}
+
+.pRed14{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #E55155;
+}
+
